@@ -14,5 +14,9 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="Include View"/>
-
+   <Button
+       android:id="@+id/includeViewViewBindingBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Include View With View Binding"/>
 </LinearLayout>

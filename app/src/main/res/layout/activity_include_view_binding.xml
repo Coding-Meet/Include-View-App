@@ -5,24 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".IncludeViewActivity">
+    tools:context=".IncludeViewBindingActivity">
 
     <include
-        android:id="@+id/itemView1"
-        layout="@layout/custom_view"
+        android:id="@+id/item1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content"
+        layout="@layout/custom_view"/>
     <include
-        android:id="@+id/itemView2"
-        layout="@layout/custom_view"
+        android:id="@+id/item2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content"
+        layout="@layout/custom_view"/>
     <include
-        android:id="@+id/itemView3"
-        layout="@layout/custom_view"
+        android:id="@+id/item3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content"
+        layout="@layout/custom_view"/>
 </LinearLayout>

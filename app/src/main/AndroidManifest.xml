@@ -12,6 +12,9 @@
         android:theme="@style/Theme.IncludeViewApp"
         tools:targetApi="31">
         <activity
+            android:name=".IncludeViewBindingActivity"
+            android:exported="false" />
+        <activity
             android:name=".IncludeViewActivity"
             android:exported="false" />
         <activity
