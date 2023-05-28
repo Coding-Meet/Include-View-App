@@ -19,5 +19,9 @@ class MainActivity : AppCompatActivity() {
         includeViewViewBindingBtn.setOnClickListener {
             startActivity(Intent(this,IncludeViewBindingActivity::class.java))
         }
+        val includeViewDataBindingBtn = findViewById<Button>(R.id.includeViewDataBindingBtn)
+        includeViewDataBindingBtn.setOnClickListener {
+            startActivity(Intent(this,IncludeViewDataBindingActivity::class.java))
+        }
     }
 }
